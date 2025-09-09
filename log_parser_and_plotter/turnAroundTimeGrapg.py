@@ -127,7 +127,7 @@ def plot_tat_growth_trend(entries):
 # Purpose : Parse logs, adjust cumulative times, and plot growth trends.
 # --------------------------------------------------------------
 if __name__ == '__main__':
-    log_pattern = 'spring.log.*'  # Adjust this pattern to match your log files
+    log_pattern = input("Enter the log file path or pattern (e.g., logs/spring.log.*): ").strip()
     runs = parse_log_files(log_pattern)
     adjusted_entries = adjust_cumulative_seconds(runs)
     plot_tat_growth_trend(adjusted_entries)
