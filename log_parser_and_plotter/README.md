@@ -21,7 +21,7 @@ This repository contains two Python scripts for analyzing application log files 
 - Output graph saved as `tat_growth_trend_by_operation.png`.
 
 **Usage:**  
-```bash
+- bash
 python tat_growth_trend.py
 
 ### 2. `operation_analysis.py`
