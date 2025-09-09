@@ -17,11 +17,13 @@ This repository contains two Python scripts for analyzing application log files 
 - Multiple log runs handled (`All Operations completed` delimiter).  
 - Continuous cumulative time axis across runs.  
 - Outlier removal to prevent skewed trends.  
-- Trendlines with slope annotation per operation.  
-- Output graph saved as `tat_growth_trend_by_operation.png`.
+- Trendlines with slope annotation per operation.
+
+**Outputs include**
+- tat_growth_trend_by_operation.png
 
 **Usage:**  
-- bash
+bash
 python tat_growth_trend.py
 
 ### 2. `operation_analysis.py`
@@ -46,6 +48,6 @@ python tat_growth_trend.py
 - read_operation_durations_xcap.png
 - operation_stats.xlsx
 
-**Usage:**  
-```bash
+**Usage:**
+bash
 python operation_analysis.py
