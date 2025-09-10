@@ -98,7 +98,7 @@ def plot_combined_operations(entries):
     plt.grid(True)
     plt.tight_layout()
     plt.savefig('combined_operation_durations_xcap.png')
-    plt.show()
+    #plt.show()
 
 # --------------------------------------------------------------
 # Function: plot_separate_operation_graphs
@@ -128,7 +128,7 @@ def plot_separate_operation_graphs(entries):
         plt.grid(True)
         plt.tight_layout()
         plt.savefig(f'{op_type.lower()}_operation_durations_xcap.png')
-        plt.show()
+        #plt.show()
 
 # --------------------------------------------------------------
 # Function: export_to_excel

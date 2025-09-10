@@ -120,7 +120,7 @@ def plot_tat_growth_trend(entries):
     plt.grid(True)
     plt.tight_layout()
     plt.savefig('tat_growth_trend_by_operation.png')
-    plt.show()
+    #plt.show()
 
 # --------------------------------------------------------------
 # Main Script Entry
