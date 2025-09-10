@@ -302,7 +302,7 @@ public class DatabaseTestServiceImpl implements DatabaseTestService {
 
         MongoDatabase testDB = mongoClient.getDatabase("sample-database");
         numbersCollection = testDB.getCollection("sample-collection");
-        long startTime = System.currentTimeMillis();
+        log.info("Storing Docs for Read and Update ........");
         for (int i = 0; i < baseDocuments.size(); i++) {
             try {
                 Document docCopy = Document.parse(baseDocuments.get(0).toJson());
